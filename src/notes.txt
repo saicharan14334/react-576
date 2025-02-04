@@ -1,0 +1,95 @@
+single page application: conatins only one tab any changes also in 1 tab
+no page refreshing and reloading
+multi page application:contains multiple tabs,page refresing,reloading.
+
+- react is a single page application.
+
+virtual DOM:
+- virtualDOM is a virtual representation of a UI which is kept in a memory
+later synced with Real DOM with the help of library called as "ReactDOM"
+
+- the updation of realDOM is with virtualDOM
+- the entire process of updating the realDOM with the help of VDOM is called as"Reconcialation"
+
+*******************
+JSX:
+- JSX stands for javascript and XML
+- JSX is a javascript syntax extension used to create HTML-markup in the react.
+- Actual way to create a element in reacr is by using method called as,
+        -React.craeteElement("tagname",{property:"value"}/null,content/childern)
+
+- JSX is not a part of raect but it is recommend to use in react.
+***********
+Rules of JSX:
+1.every ele irrespective of paired/unpaired tag both most be closed
+ex: <h1></h1>,,<input/>
+
+2.more than 1 JSX ele is used then they must be wrapped with one parent class element
+ex:
+<div>
+<section>
+
+
+*************
+JSX Expression: used to call the the variable,mathematical expression inside the element.
+Syntax:<h1>{variable/expression}</h1>
+
+
+************************
+components:
+- components are the files or modules which consiste=s of javascript releated logics which canbe reused.
+1.class based components(CBC)
+2.Functional based components(FBC)
+
+1.class based components(CBC):
+- similar to javascript es6 class.
+- CBC components are statefull coponents.
+syntax:
+class Person{
+    constructor(name,age){
+        this.name=name;
+        this.age=age;
+    }
+}
+class Child extends Person{
+    constructor(name,age,city){
+        super();
+        this.city=city;
+    }
+}
+
+
+syntax:
+class App extends React.Component{
+    render(){
+        return(
+            //JSX
+        )
+    }
+}
+export default App;
+
+
+2.Functional based components(FBC)
+- similar to JS functions
+-FBC is stateless becaues there is no state object until react v16.8
+
+syntax:
+function App(){
+    return(
+
+    )
+}
+export default App;
+        or
+const App()=>{
+
+}
+
+- while creating react component the name capital letters
+-extension of file should be .js or .jsx
+
+
+*************
+component composition :
+- component composition is used to 
