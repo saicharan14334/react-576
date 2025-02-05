@@ -92,4 +92,10 @@ const App()=>{
 
 *************
 component composition :
-- component composition is used to 
+- component composition is used to combine multiple components into single application
+
+PROPS:
+****************
+-props is nothing but properties similar to HTML attributes
+-props is an object
+-props is an object used to exchange info or data from parent to child components.
