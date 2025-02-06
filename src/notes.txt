@@ -98,4 +98,43 @@ PROPS:
 ****************
 -props is nothing but properties similar to HTML attributes
 -props is an object
+-props is an  inmutable
 -props is an object used to exchange info or data from parent to child components.
+
+props.children;- it is a special type of prop the data /components as a prop
+props.drilling:- it is used to pass the data down to child component
+
+
+state:-
+***********
+- exchanging data from student component to parent component
+- is a mutable object which is used to store/isolate the data inside the component.
+
+
+*************
+Class Component:
+- class component is having the state object by default.
+constructor(){
+        super();
+        this.state={
+            users:["vamshi","577","vaishali","chetan","ranjith"],
+            num:100
+        };
+    }
+- to update the state object of a class component we have a method "this.setState()"
+
+
+Functional Component:
+- by default  functional component   stateledd because there is no object.
+-  in a react v16.8,they intrioduce a concept called as"hooks"
+ syntax:const[state,setState]=useStsre(intialValue);
+ 
+State - it will used to
+
+Hooks:
+hooks is noyhing but a function which implemnts all the features of class component
+
+basic hooks are:
+-useState()
+-useEffect()
+useContext()
