@@ -1,6 +1,7 @@
 import React from "react";
 import CBCStateEx from './stateexample/CBCStateEx';
 import FBCStateEx from "./stateexample/FBCStateEx";
+import UseEffect from "./UseEffect";
 
 // function App() {
 //   // let e= React.createElement("div",{className:"App"}, 
@@ -106,7 +107,7 @@ export default app */}
 
 const App = () => {
   return (
-    <div>     <FBCStateEx/>
+    <div>     <UseEffect/>
     </div>
   )
 }

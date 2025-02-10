@@ -138,3 +138,8 @@ basic hooks are:
 -useState()
 -useEffect()
 useContext()
+
+UseEffect():-
+*************
+-it allowes developers to make necessary changes/side effect insude the components.
+syntax:-useEffect(callbackfn,dependency);
